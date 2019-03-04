@@ -11,7 +11,7 @@ import (
 )
 
 var accessTokenKey = "Private-Token"
-var accessTokenValue = "Uyzz8QBMDxYnL42qvx42"
+var accessTokenValue = "PRIVATE_TOKEN_GOES_HERE"
 
 func Index(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "Home")
